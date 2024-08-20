@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+ul li hr{
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.desktop-menu a.active hr{
+    width: 28px;
+    opacity: 1;
+    background-color: #c586a5;;
+}
+.desktop-menu a.active,
+.mobile-menu a.active{
+    color: #c586a5;
+}
