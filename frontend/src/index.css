@@ -25,3 +25,6 @@ ul li hr{
 .mobile-menu a.active{
     color: #c586a5;
 }
+::-webkit-scrollbar{
+    display: none;
+}
